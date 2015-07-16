@@ -26,7 +26,6 @@ public class MSDSPOStaticInfo {
 		lifelines = new HashMap<Integer,String>();
 		lifelines.put(0,"User");
 		lifelines.put(1,"Alice");
-		lifelines.put(2,"Bob");
 		interactionsLifelines.put("main", lifelines);
 	}
 

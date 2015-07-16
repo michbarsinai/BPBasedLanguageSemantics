@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20110701" xmlns:xmi="http://www.omg.org/spec/XMI/20110701" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:LSC="http:///schemas/LSC/_qIZRkHLwEeStz5mzO62lGg/0" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/4.0.0/UML" xmlns:visual="http:///schemas/visual/_qJihEHLwEeStz5mzO62lGg/0" xsi:schemaLocation="http:///schemas/LSC/_qIZRkHLwEeStz5mzO62lGg/0 platform:/playgoResource/resources/profiles/LSC.profile.uml#_UXHg8ktjEeOIUs0KoNYPKA http:///schemas/visual/_qJihEHLwEeStz5mzO62lGg/0 platform:/playgoResource/resources/profiles/visual.profile.uml#_UYHmgktjEeOIUs0KoNYPKA">
+  <uml:Model xmi:id="_dZmkQCuLEeWb1ZLE9OWn4g" name="LscComplianceSuite">
+    <packagedElement xmi:type="uml:Collaboration" xmi:id="_daTH0CuLEeWb1ZLE9OWn4g" name="AliceSelfMessage">
+      <ownedAttribute xmi:id="_gO4IQSuLEeWb1ZLE9OWn4g" name="Env" type="_gO4IQCuLEeWb1ZLE9OWn4g"/>
+      <ownedAttribute xmi:id="_h-sgECuLEeWb1ZLE9OWn4g" name="Person" type="_h-r5ACuLEeWb1ZLE9OWn4g"/>
+      <ownedBehavior xmi:type="uml:Interaction" xmi:id="_fOXtgCuLEeWb1ZLE9OWn4g" name="main">
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_jbUPECuLEeWb1ZLE9OWn4g" name="trigger-InvocationStart" covered="_gOr7ACuLEeWb1ZLE9OWn4g" message="_jbM6UCuLEeWb1ZLE9OWn4g"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_jbUPEiuLEeWb1ZLE9OWn4g" name="trigger-ExecutionStart" covered="_h-nAgCuLEeWb1ZLE9OWn4g" message="_jbM6UCuLEeWb1ZLE9OWn4g"/>
+        <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_jbU2ISuLEeWb1ZLE9OWn4g" name="trigger-invocationBody" covered="_gOr7ACuLEeWb1ZLE9OWn4g" finish="_jbVdMSuLEeWb1ZLE9OWn4g" start="_jbUPECuLEeWb1ZLE9OWn4g"/>
+        <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_jbU2IiuLEeWb1ZLE9OWn4g" name="trigger-executionBody" covered="_h-nAgCuLEeWb1ZLE9OWn4g" finish="_jbU2IyuLEeWb1ZLE9OWn4g" start="_jbUPEiuLEeWb1ZLE9OWn4g"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_jbU2IyuLEeWb1ZLE9OWn4g" name="trigger-ExecutionFinish" covered="_h-nAgCuLEeWb1ZLE9OWn4g"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_jbVdMSuLEeWb1ZLE9OWn4g" name="trigger-InvocationFinish" covered="_gOr7ACuLEeWb1ZLE9OWn4g"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_lHp1ECuLEeWb1ZLE9OWn4g" name="hello-InvocationStart" covered="_h-nAgCuLEeWb1ZLE9OWn4g" message="_lHjucCuLEeWb1ZLE9OWn4g"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_lHrqQSuLEeWb1ZLE9OWn4g" name="hello-ExecutionStart" covered="_h-nAgCuLEeWb1ZLE9OWn4g" message="_lHjucCuLEeWb1ZLE9OWn4g"/>
+        <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_lHrqQyuLEeWb1ZLE9OWn4g" name="hello-invocationBody" covered="_h-nAgCuLEeWb1ZLE9OWn4g" finish="_lHsRUiuLEeWb1ZLE9OWn4g" start="_lHp1ECuLEeWb1ZLE9OWn4g"/>
+        <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_lHrqRCuLEeWb1ZLE9OWn4g" name="hello-executionBody" covered="_h-nAgCuLEeWb1ZLE9OWn4g" finish="_lHsRUCuLEeWb1ZLE9OWn4g" start="_lHrqQSuLEeWb1ZLE9OWn4g"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_lHsRUCuLEeWb1ZLE9OWn4g" name="hello-ExecutionFinish" covered="_h-nAgCuLEeWb1ZLE9OWn4g"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_lHsRUiuLEeWb1ZLE9OWn4g" name="hello-InvocationFinish" covered="_h-nAgCuLEeWb1ZLE9OWn4g"/>
+        <lifeline xmi:id="_gOr7ACuLEeWb1ZLE9OWn4g" name="User" represents="_gO4IQSuLEeWb1ZLE9OWn4g" coveredBy="_jbUPECuLEeWb1ZLE9OWn4g _jbVdMSuLEeWb1ZLE9OWn4g _jbU2ISuLEeWb1ZLE9OWn4g"/>
+        <lifeline xmi:id="_h-nAgCuLEeWb1ZLE9OWn4g" name="Alice" represents="_h-sgECuLEeWb1ZLE9OWn4g" coveredBy="_jbUPEiuLEeWb1ZLE9OWn4g _jbU2IyuLEeWb1ZLE9OWn4g _jbU2IiuLEeWb1ZLE9OWn4g _lHp1ECuLEeWb1ZLE9OWn4g _lHsRUiuLEeWb1ZLE9OWn4g _lHrqQyuLEeWb1ZLE9OWn4g _lHrqQSuLEeWb1ZLE9OWn4g _lHsRUCuLEeWb1ZLE9OWn4g _lHrqRCuLEeWb1ZLE9OWn4g"/>
+        <message xmi:id="_jbM6UCuLEeWb1ZLE9OWn4g" name="trigger" receiveEvent="_jbUPEiuLEeWb1ZLE9OWn4g" sendEvent="_jbUPECuLEeWb1ZLE9OWn4g" signature="_jbWEQCuLEeWb1ZLE9OWn4g"/>
+        <message xmi:id="_lHjucCuLEeWb1ZLE9OWn4g" name="hello" receiveEvent="_lHrqQSuLEeWb1ZLE9OWn4g" sendEvent="_lHp1ECuLEeWb1ZLE9OWn4g" signature="_lHs4YCuLEeWb1ZLE9OWn4g"/>
+      </ownedBehavior>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Component" xmi:id="_gO4IQCuLEeWb1ZLE9OWn4g" name="Env"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_h-r5ACuLEeWb1ZLE9OWn4g" name="Person">
+      <ownedOperation xmi:id="_jbWEQCuLEeWb1ZLE9OWn4g" name="trigger"/>
+      <ownedOperation xmi:id="_lHs4YCuLEeWb1ZLE9OWn4g" name="hello"/>
+    </packagedElement>
+    <profileApplication xmi:id="_dZnyYCuLEeWb1ZLE9OWn4g">
+      <eAnnotations xmi:id="_dZnyYSuLEeWb1ZLE9OWn4g" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="platform:/playgoResource/resources/profiles/visual.profile.uml#_UYHmgktjEeOIUs0KoNYPKA"/>
+      </eAnnotations>
+      <appliedProfile href="platform:/playgoResource/resources/profiles/visual.profile.uml#_UYHmgEtjEeOIUs0KoNYPKA"/>
+    </profileApplication>
+    <profileApplication xmi:id="_dZnyYiuLEeWb1ZLE9OWn4g">
+      <eAnnotations xmi:id="_dZnyYyuLEeWb1ZLE9OWn4g" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="platform:/playgoResource/resources/profiles/LSC.profile.uml#_UXHg8ktjEeOIUs0KoNYPKA"/>
+      </eAnnotations>
+      <appliedProfile href="platform:/playgoResource/resources/profiles/LSC.profile.uml#_UXHg8EtjEeOIUs0KoNYPKA"/>
+    </profileApplication>
+  </uml:Model>
+  <LSC:Collaboration xmi:id="_dfd7sCuLEeWb1ZLE9OWn4g" base_Collaboration="_daTH0CuLEeWb1ZLE9OWn4g" LscId="1437031368427"/>
+  <LSC:Interaction xmi:id="_fOZisCuLEeWb1ZLE9OWn4g" base_Interaction="_fOXtgCuLEeWb1ZLE9OWn4g" Mode="Universal" LscId="1437031380060" LSCCollaboration="_daTH0CuLEeWb1ZLE9OWn4g"/>
+  <visual:Interaction xmi:id="_fOZisSuLEeWb1ZLE9OWn4g" base_Interaction="_fOXtgCuLEeWb1ZLE9OWn4g" Width="321" Height="490" X="50" Y="30"/>
+  <LSC:Lifeline xmi:id="_gOsiECuLEeWb1ZLE9OWn4g" base_Lifeline="_gOr7ACuLEeWb1ZLE9OWn4g" Type="User" LscId="1437031386801" Binding="Static" PolymorphicScope="Deep"/>
+  <visual:Lifeline xmi:id="_gOsiESuLEeWb1ZLE9OWn4g" base_Lifeline="_gOr7ACuLEeWb1ZLE9OWn4g" Width="100" Height="400" X="50" Y="50"/>
+  <LSC:Property xmi:id="_gO4vUCuLEeWb1ZLE9OWn4g" base_Property="_gO4IQSuLEeWb1ZLE9OWn4g"/>
+  <LSC:Lifeline xmi:id="_h-nAgSuLEeWb1ZLE9OWn4g" base_Lifeline="_h-nAgCuLEeWb1ZLE9OWn4g" LscId="1437031398536" Binding="Static" PolymorphicScope="Deep"/>
+  <visual:Lifeline xmi:id="_h-nAgiuLEeWb1ZLE9OWn4g" base_Lifeline="_h-nAgCuLEeWb1ZLE9OWn4g" Width="100" Height="400" X="200" Y="50"/>
+  <LSC:Property xmi:id="_h-sgESuLEeWb1ZLE9OWn4g" base_Property="_h-sgECuLEeWb1ZLE9OWn4g"/>
+  <LSC:Message xmi:id="_jbQksCuLEeWb1ZLE9OWn4g" base_Message="_jbM6UCuLEeWb1ZLE9OWn4g" LscId="1437031408252" Operation="_jbWEQCuLEeWb1ZLE9OWn4g"/>
+  <LSC:MessageOccurrenceSpecification xmi:id="_jbUPESuLEeWb1ZLE9OWn4g" base_MessageOccurrenceSpecification="_jbUPECuLEeWb1ZLE9OWn4g"/>
+  <LSC:MessageOccurrenceSpecification xmi:id="_jbU2ICuLEeWb1ZLE9OWn4g" base_MessageOccurrenceSpecification="_jbUPEiuLEeWb1ZLE9OWn4g"/>
+  <LSC:MessageOccurrenceSpecification xmi:id="_jbVdMCuLEeWb1ZLE9OWn4g" base_MessageOccurrenceSpecification="_jbU2IyuLEeWb1ZLE9OWn4g"/>
+  <LSC:MessageOccurrenceSpecification xmi:id="_jbVdMiuLEeWb1ZLE9OWn4g" base_MessageOccurrenceSpecification="_jbVdMSuLEeWb1ZLE9OWn4g"/>
+  <LSC:Operation xmi:id="_jbWEQSuLEeWb1ZLE9OWn4g" base_Operation="_jbWEQCuLEeWb1ZLE9OWn4g" ActionOnProperty="None"/>
+  <LSC:Message xmi:id="_lHljoCuLEeWb1ZLE9OWn4g" base_Message="_lHjucCuLEeWb1ZLE9OWn4g" LscId="1437031419610" Operation="_lHs4YCuLEeWb1ZLE9OWn4g" Execution="Execute"/>
+  <LSC:MessageOccurrenceSpecification xmi:id="_lHrqQCuLEeWb1ZLE9OWn4g" base_MessageOccurrenceSpecification="_lHp1ECuLEeWb1ZLE9OWn4g"/>
+  <LSC:MessageOccurrenceSpecification xmi:id="_lHrqQiuLEeWb1ZLE9OWn4g" base_MessageOccurrenceSpecification="_lHrqQSuLEeWb1ZLE9OWn4g"/>
+  <LSC:MessageOccurrenceSpecification xmi:id="_lHsRUSuLEeWb1ZLE9OWn4g" base_MessageOccurrenceSpecification="_lHsRUCuLEeWb1ZLE9OWn4g"/>
+  <LSC:MessageOccurrenceSpecification xmi:id="_lHsRUyuLEeWb1ZLE9OWn4g" base_MessageOccurrenceSpecification="_lHsRUiuLEeWb1ZLE9OWn4g"/>
+  <LSC:Operation xmi:id="_lHs4YSuLEeWb1ZLE9OWn4g" base_Operation="_lHs4YCuLEeWb1ZLE9OWn4g" ActionOnProperty="None"/>
+</xmi:XMI>
