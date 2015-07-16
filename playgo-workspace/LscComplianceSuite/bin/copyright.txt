@@ -1,0 +1,4 @@
+Copyright (c) 2009-2013, Weizmann Institute of Science and Ben Gurion University. 
+All rights reserved.
+
+This copyright notice applies to all files in the current folder and subfolders.

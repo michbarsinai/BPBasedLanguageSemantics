@@ -1,0 +1,7 @@
+E: 1437027014296 1: void playgo.systemmodel.classes.Person.trigger() 
+C: aspects.MSDAspectmain[0] (1,1,0) Cold
+E: 1437027014312 2: void playgo.systemmodel.classes.Person.hello() 
+C: aspects.MSDAspectmain[0] (1,2,1) Cold
+C: aspects.MSDAspectmain[0] (1,2,2) Cold
+C: aspects.MSDAspectmain[0] (1,3,3) Cold
+F: aspects.MSDAspectmain[0] Completion

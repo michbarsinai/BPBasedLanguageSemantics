@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="org.eclipse.jdt.launching.localJavaApplication">
+<booleanAttribute key="org.eclipse.jdt.launching.ATTR_USE_START_ON_FIRST_THREAD" value="false"/>
+<stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="playgo.systemmodel.generated.SystemModelGui"/>
+<stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="LscComplianceSuite"/>
+<stringAttribute key="org.eclipse.jdt.launching.VM_ARGUMENTS" value="-DsystemModelDebugPort=8222                -DsystemModelDebugPort=8222               -DsystemModelDebugPort=8222              -DsystemModelDebugPort=8222             -DsystemModelDebugPort=8222            -DsystemModelDebugPort=8222           -DsystemModelDebugPort=8222          -DsystemModelDebugPort=8222         -DsystemModelDebugPort=8222        -DsystemModelDebugPort=8222       -DsystemModelDebugPort=8222      -DsystemModelDebugPort=8222     -DsystemModelDebugPort=8222    -DsystemModelDebugPort=8222   -DsystemModelDebugPort=8222  -DlscDebug=true -DsystemModelDebug=true -DsystemModelDebugPort=8222 -Dport=2080 -DuseSmGui=true -DtraceVisEnabled=false -DtraceVisFile=default_trace_vis_file"/>
+<stringAttribute key="org.eclipse.jdt.launching.WORKING_DIRECTORY" value="/home/michael/workspace/LscComplianceSuite"/>
+</launchConfiguration>
