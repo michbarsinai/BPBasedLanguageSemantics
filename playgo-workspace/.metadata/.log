@@ -2787,3 +2787,242 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:591)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1450)
 	at org.eclipse.equinox.launcher.Main.main(Main.java:1426)
+!SESSION 2015-07-17 00:31:25.621 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_45
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY org.eclipse.core.resources 2 10035 2015-07-17 00:31:40.928
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.ajdt.core 1 0 2015-07-17 00:31:43.842
+!MESSAGE Compiler configuration for project LscComplianceSuite doesn't know previous state, so assuming EVERYTHING has changed.
+
+!ENTRY org.eclipse.ajdt.core 1 0 2015-07-17 00:31:44.424
+!MESSAGE ===========================================================================================
+
+!ENTRY org.eclipse.ajdt.core 1 0 2015-07-17 00:31:44.425
+!MESSAGE Build kind = FULLBUILD
+
+!ENTRY org.eclipse.ajdt.core 1 0 2015-07-17 00:31:44.995
+!MESSAGE Project=LscComplianceSuite, kind of build requested=Full AspectJ compilation
+
+!ENTRY org.eclipse.ajdt.core 1 0 2015-07-17 00:31:45.087
+!MESSAGE Timer event: 1ms: Flush included source file cache
+
+!ENTRY org.eclipse.ajdt.core 1 0 2015-07-17 00:31:45.087
+!MESSAGE Timer event: 0ms: Check delta
+
+!ENTRY org.eclipse.ajdt.core 1 0 2015-07-17 00:31:45.231
+!MESSAGE Builder: Tidied output folder(s), removed class files and derived resources
+
+!ENTRY org.eclipse.ajdt.core 1 0 2015-07-17 00:31:45.244
+!MESSAGE AJC: Starting new build for project LscComplianceSuite
+
+!ENTRY org.eclipse.ajdt.core 1 0 2015-07-17 00:31:45.273
+!MESSAGE Classpath = /home/michael/Documents/msc/BPBasedLanguageSemantics/playgo-workspace/LscComplianceSuite/bin:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/resources.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/jsse.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/jce.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/charsets.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rhino.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext/icedtea-sound.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext/sunpkcs11.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext/localedata.jar:/usr/share/java/java-atk-wrapper.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext/dnsns.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext/zipfs.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext/sunjce_provider.jar:/home/michael/Documents/msc/BPBasedLanguageSemantics/playgo-workspace/LscComplianceSuite/lib/antlr-runtime-3.1.3.jar:/home/michael/Documents/msc/BPBasedLanguageSemantics/playgo-workspace/LscComplianceSuite/lib/com.vebvolcano.jar:/home/michael/Documents/msc/BPBasedLanguageSemantics/playgo-workspace/LscComplianceSuite/lib/commons-io-2.0.1.jar:/home/michael/Documents/msc/BPBasedLanguageSemantics/playgo-workspace/LscComplianceSuite/lib/il.ac.tau.cs.smlab.semanticVariability.jar:/home/michael/Documents/msc/BPBasedLanguageSemantics/playgo-workspace/LscComplianceSuite/lib/il.ac.wis.cs.bpj.jar:/home/michael/Documents/msc/BPBasedLanguageSemantics/playgo-workspace/LscComplianceSuite/lib/il.ac.wis.cs.bpjs2a.jar:/home/michael/Documents/msc/BPBasedLanguageSemantics/playgo-workspace/LscComplianceSuite/lib/il.ac.wis.cs.common.jar:/home/michael/Documents/msc/BPBasedLanguageSemantics/playgo-workspace/LscComplianceSuite/lib/il.ac.wis.cs.formal.jar:/home/michael/Documents/msc/BPBasedLanguageSemantics/playgo-workspace/LscComplianceSuite/lib/il.ac.wis.cs.playgo.interplay.jar:/home/michael/Documents/msc/BPBasedLanguageSemantics/playgo-workspace/LscComplianceSuite/lib/il.ac.wis.cs.playgo.lscDebugServer.jar:/home/michael/Documents/msc/BPBasedLanguageSemantics/playgo-workspace/LscComplianceSuite/lib/il.ac.wis.cs.playgo.playToolkit.jar:/home/michael/Documents/msc/BPBasedLanguageSemantics/playgo-workspace/LscComplianceSuite/lib/il.ac.wis.cs.playgo.playableComponents.swing.jar:/home/michael/Documents/msc/BPBasedLanguageSemantics/playgo-workspace/LscComplianceSuite/lib/il.ac.wis.cs.playgo.s2aRuntime.jar:/home/michael/Documents/msc/BPBasedLanguageSemantics/playgo-workspace/LscComplianceSuite/lib/il.ac.wis.cs.systemModel.jar:/home/michael/Documents/msc/BPBasedLanguageSemantics/playgo-workspace/LscComplianceSuite/lib/semanticVariability/com.google.guava_15.0.0.v201403281430.jar:/home/michael/Documents/msc/BPBasedLanguageSemantics/playgo-workspace/LscComplianceSuite/lib/semanticVariability/com.google.inject_3.0.0.v201203062045.jar:/home/michael/Documents/msc/BPBasedLanguageSemantics/playgo-workspace/LscComplianceSuite/lib/semanticVariability/javax.inject_1.0.0.v20091030.jar:/home/michael/Documents/msc/BPBasedLanguageSemantics/playgo-workspace/LscComplianceSuite/lib/semanticVariability/jtlv-prompt1.4.1.jar:/home/michael/Documents/msc/BPBasedLanguageSemantics/playgo-workspace/LscComplianceSuite/lib/semanticVariability/net.games.core.jar:/home/michael/Documents/msc/BPBasedLanguageSemantics/playgo-workspace/LscComplianceSuite/lib/semanticVariability/org.eclipse.equinox.common_3.6.200.v20130402-1505.jar:/home/michael/Documents/msc/BPBasedLanguageSemantics/playgo-workspace/LscComplianceSuite/lib/semanticVariability/org.eclipse.m2m.atl.common_3.4.0.v201305211502.jar:/home/michael/Documents/msc/BPBasedLanguageSemantics/playgo-workspace/LscComplianceSuite/lib/semanticVariability/org.eclipse.m2m.atl.core.emf_3.5.0.v201405260755.jar:/home/michael/Documents/msc/BPBasedLanguageSemantics/playgo-workspace/LscComplianceSuite/lib/semanticVariability/org.eclipse.m2m.atl.core_3.5.0.v201405260755.jar:/home/michael/Documents/msc/BPBasedLanguageSemantics/playgo-workspace/LscComplianceSuite/lib/semanticVariability/org.eclipse.m2m.atl.engine.emfvm_3.5.0.v201405260755.jar:/home/michael/Documents/msc/BPBasedLanguageSemantics/playgo-workspace/LscComplianceSuite/lib/semanticVariability/org.eclipse.xtext.common.types_2.6.0.v201405210727.jar:/home/michael/Documents/msc/BPBasedLanguageSemantics/playgo-workspace/LscComplianceSuite/lib/semanticVariability/org.eclipse.xtext.util_2.6.0.v201405210727.jar:/home/michael/Documents/msc/BPBasedLanguageSemantics/playgo-workspace/LscComplianceSuite/lib/semanticVariability/org.eclipse.xtext.xbase.lib_2.6.0.v201405210727.jar:/home/michael/Documents/msc/BPBasedLanguageSemantics/playgo-workspace/LscComplianceSuite/lib/semanticVariability/org.eclipse.xtext_2.6.0.v201405210727.jar:/home/michael/Documents/msc/BPBasedLanguageSemantics/playgo-workspace/LscComplianceSuite/lib/synthesis/javabdd-2.0.jar:/home/michael/Documents/msc/BPBasedLanguageSemantics/playgo-workspace/LscComplianceSuite/lib/synthesis/jtlv-prompt1.4.1.jar:/home/michael/Documents/msc/BPBasedLanguageSemantics/playgo-workspace/LscComplianceSuite/lib/synthesis/net.games.core.jar:/home/michael/Documents/msc/BPBasedLanguageSemantics/playgo-workspace/LscComplianceSuite/lib/xstream-1.4.5.jar:/home/michael/PlayGo/PlayGo_3.1_06012015_linux.gtk.x86_64/plugins/org.aspectj.runtime_1.7.3.20130613144500-a.jar:
+
+!ENTRY org.eclipse.ajdt.core 1 0 2015-07-17 00:31:45.274
+!MESSAGE Timer event: 850ms: Pre compile
+
+!ENTRY org.eclipse.ajdt.core 1 0 2015-07-17 00:31:46.232
+!MESSAGE Compiler configuration for project LscComplianceSuite has been read by compiler.  Resetting.
+
+!ENTRY org.eclipse.ajdt.core 1 0 2015-07-17 00:31:46.232
+!MESSAGE      Configuration was [PROJECTSOURCEFILES_CHANGED, JAVAOPTIONS_CHANGED, ASPECTPATH_CHANGED, CLASSPATH_CHANGED, INPATH_CHANGED, NONSTANDARDOPTIONS_CHANGED, OUTJAR_CHANGED, PROJECTSOURCERESOURCES_CHANGED, OUTPUTDESTINATIONS_CHANGED, INJARS_CHANGED]
+
+!ENTRY org.eclipse.ajdt.core 1 0 2015-07-17 00:31:46.232
+!MESSAGE Resetting list of modified source files.  Was null
+
+!ENTRY org.eclipse.ajdt.core 1 0 2015-07-17 00:31:48.432
+!MESSAGE AJC: compiling source files
+
+!ENTRY org.eclipse.ajdt.core 1 0 2015-07-17 00:31:50.180
+!MESSAGE AJC: compiled: /home/michael/Documents/msc/BPBasedLanguageSemantics/playgo-workspace/LscComplianceSuite/src/playgo/systemmodel/generated/ObjectsInstantiatorAspect.java
+
+!ENTRY org.eclipse.ajdt.core 1 0 2015-07-17 00:31:50.298
+!MESSAGE AJC: compiled: /home/michael/Documents/msc/BPBasedLanguageSemantics/playgo-workspace/LscComplianceSuite/src/aspects/MSDAspectmain.aj
+
+!ENTRY org.eclipse.ajdt.core 1 0 2015-07-17 00:31:50.424
+!MESSAGE AJC: compiled: /home/michael/Documents/msc/BPBasedLanguageSemantics/playgo-workspace/LscComplianceSuite/src/aspects/MSDCoordinatorAspect.aj
+
+!ENTRY org.eclipse.ajdt.core 1 0 2015-07-17 00:31:50.612
+!MESSAGE AJC: woven aspect playgo.systemmodel.generated.ObjectsInstantiatorAspect (from /home/michael/Documents/msc/BPBasedLanguageSemantics/playgo-workspace/LscComplianceSuite/src/playgo/systemmodel/generated/ObjectsInstantiatorAspect.java)
+
+!ENTRY org.eclipse.ajdt.core 1 0 2015-07-17 00:31:50.758
+!MESSAGE AJC: woven aspect aspects.MSDAspectmain (from /home/michael/Documents/msc/BPBasedLanguageSemantics/playgo-workspace/LscComplianceSuite/src/aspects/MSDAspectmain.aj)
+
+!ENTRY org.eclipse.ajdt.core 1 0 2015-07-17 00:31:50.898
+!MESSAGE AJC: woven aspect aspects.MSDCoordinatorAspect (from /home/michael/Documents/msc/BPBasedLanguageSemantics/playgo-workspace/LscComplianceSuite/src/aspects/MSDCoordinatorAspect.aj)
+
+!ENTRY org.eclipse.ajdt.core 1 0 2015-07-17 00:31:51.075
+!MESSAGE AJC: woven class il.ac.wis.cs.playgo.playtoolkit.Utils (from /home/michael/Documents/msc/BPBasedLanguageSemantics/playgo-workspace/LscComplianceSuite/lib/il.ac.wis.cs.playgo.playToolkit.jar)
+
+!ENTRY org.eclipse.ajdt.core 1 0 2015-07-17 00:31:51.162
+!MESSAGE AJC: woven class il.ac.wis.cs.playgo.playtoolkit.AppObjects (from /home/michael/Documents/msc/BPBasedLanguageSemantics/playgo-workspace/LscComplianceSuite/lib/il.ac.wis.cs.playgo.playToolkit.jar)
+
+!ENTRY org.eclipse.ajdt.core 1 0 2015-07-17 00:31:51.207
+!MESSAGE AJC: woven class il.ac.wis.cs.playgo.playtoolkit.api.impl.java.GuiJAgent (from /home/michael/Documents/msc/BPBasedLanguageSemantics/playgo-workspace/LscComplianceSuite/lib/il.ac.wis.cs.playgo.playToolkit.jar)
+
+!ENTRY org.eclipse.ajdt.core 1 0 2015-07-17 00:31:51.229
+!MESSAGE AJC: woven class il.ac.wis.cs.playgo.playtoolkit.api.impl.java.SystemModelPlayGo (from /home/michael/Documents/msc/BPBasedLanguageSemantics/playgo-workspace/LscComplianceSuite/lib/il.ac.wis.cs.playgo.playToolkit.jar)
+
+!ENTRY org.eclipse.ajdt.core 1 0 2015-07-17 00:31:51.235
+!MESSAGE AJC: woven class il.ac.wis.cs.playgo.playtoolkit.api.impl.tcp.SystemModelTcpAgent$1 (from /home/michael/Documents/msc/BPBasedLanguageSemantics/playgo-workspace/LscComplianceSuite/lib/il.ac.wis.cs.playgo.playToolkit.jar)
+
+!ENTRY org.eclipse.ajdt.core 1 0 2015-07-17 00:31:51.371
+!MESSAGE AJC: woven class il.ac.wis.cs.playgo.playtoolkit.api.impl.tcp.SystemModelTcpAgent (from /home/michael/Documents/msc/BPBasedLanguageSemantics/playgo-workspace/LscComplianceSuite/lib/il.ac.wis.cs.playgo.playToolkit.jar)
+
+!ENTRY org.eclipse.ajdt.core 1 0 2015-07-17 00:31:51.374
+!MESSAGE AJC: woven class il.ac.wis.cs.playgo.playtoolkit.api.impl.tcp.PlayGoTcpAgent$1 (from /home/michael/Documents/msc/BPBasedLanguageSemantics/playgo-workspace/LscComplianceSuite/lib/il.ac.wis.cs.playgo.playToolkit.jar)
+
+!ENTRY org.eclipse.ajdt.core 1 0 2015-07-17 00:31:51.394
+!MESSAGE AJC: woven class il.ac.wis.cs.playgo.playtoolkit.api.impl.tcp.PlayGoTcpAgent$2 (from /home/michael/Documents/msc/BPBasedLanguageSemantics/playgo-workspace/LscComplianceSuite/lib/il.ac.wis.cs.playgo.playToolkit.jar)
+
+!ENTRY org.eclipse.ajdt.core 1 0 2015-07-17 00:31:51.521
+!MESSAGE AJC: woven class il.ac.wis.cs.playgo.playtoolkit.api.impl.tcp.PlayGoTcpAgent (from /home/michael/Documents/msc/BPBasedLanguageSemantics/playgo-workspace/LscComplianceSuite/lib/il.ac.wis.cs.playgo.playToolkit.jar)
+
+!ENTRY org.eclipse.ajdt.core 1 0 2015-07-17 00:31:51.528
+!MESSAGE AJC: woven class il.ac.wis.cs.playgo.playtoolkit.api.impl.tcp.GuiTcpAgent$1 (from /home/michael/Documents/msc/BPBasedLanguageSemantics/playgo-workspace/LscComplianceSuite/lib/il.ac.wis.cs.playgo.playToolkit.jar)
+
+!ENTRY org.eclipse.ajdt.core 1 0 2015-07-17 00:31:51.585
+!MESSAGE AJC: woven class il.ac.wis.cs.playgo.playtoolkit.api.impl.tcp.GuiTcpAgent (from /home/michael/Documents/msc/BPBasedLanguageSemantics/playgo-workspace/LscComplianceSuite/lib/il.ac.wis.cs.playgo.playToolkit.jar)
+
+!ENTRY org.eclipse.ajdt.core 1 0 2015-07-17 00:31:51.586
+!MESSAGE AJC: woven class il.ac.wis.cs.playgo.playtoolkit.api.intf.IPlayable (from /home/michael/Documents/msc/BPBasedLanguageSemantics/playgo-workspace/LscComplianceSuite/lib/il.ac.wis.cs.playgo.playToolkit.jar)
+
+!ENTRY org.eclipse.ajdt.core 1 0 2015-07-17 00:31:51.587
+!MESSAGE AJC: woven class il.ac.wis.cs.playgo.playtoolkit.api.intf.IPlayGo (from /home/michael/Documents/msc/BPBasedLanguageSemantics/playgo-workspace/LscComplianceSuite/lib/il.ac.wis.cs.playgo.playToolkit.jar)
+
+!ENTRY org.eclipse.ajdt.core 1 0 2015-07-17 00:31:51.588
+!MESSAGE AJC: woven class il.ac.wis.cs.playgo.playtoolkit.api.intf.IPlayableComponent (from /home/michael/Documents/msc/BPBasedLanguageSemantics/playgo-workspace/LscComplianceSuite/lib/il.ac.wis.cs.playgo.playToolkit.jar)
+
+!ENTRY org.eclipse.ajdt.core 1 0 2015-07-17 00:31:51.588
+!MESSAGE AJC: woven class il.ac.wis.cs.playgo.playtoolkit.api.intf.IPlayableContainer (from /home/michael/Documents/msc/BPBasedLanguageSemantics/playgo-workspace/LscComplianceSuite/lib/il.ac.wis.cs.playgo.playToolkit.jar)
+
+!ENTRY org.eclipse.ajdt.core 1 0 2015-07-17 00:31:51.592
+!MESSAGE AJC: woven class il.ac.wis.cs.playgo.playtoolkit.api.web.MethodToActivate (from /home/michael/Documents/msc/BPBasedLanguageSemantics/playgo-workspace/LscComplianceSuite/lib/il.ac.wis.cs.playgo.playToolkit.jar)
+
+!ENTRY org.eclipse.ajdt.core 1 0 2015-07-17 00:31:51.622
+!MESSAGE AJC: woven class il.ac.wis.cs.playgo.playtoolkit.api.web.NJAppServer (from /home/michael/Documents/msc/BPBasedLanguageSemantics/playgo-workspace/LscComplianceSuite/lib/il.ac.wis.cs.playgo.playToolkit.jar)
+
+!ENTRY org.eclipse.ajdt.core 1 0 2015-07-17 00:31:51.795
+!MESSAGE AJC: woven class il.ac.wis.cs.playgo.playtoolkit.api.xml.XmlMessageHandler (from /home/michael/Documents/msc/BPBasedLanguageSemantics/playgo-workspace/LscComplianceSuite/lib/il.ac.wis.cs.playgo.playToolkit.jar)
+
+!ENTRY org.eclipse.ajdt.core 1 0 2015-07-17 00:31:51.925
+!MESSAGE AJC: woven class il.ac.wis.cs.playgo.playtoolkit.api.xml.XmlMessageCreator (from /home/michael/Documents/msc/BPBasedLanguageSemantics/playgo-workspace/LscComplianceSuite/lib/il.ac.wis.cs.playgo.playToolkit.jar)
+
+!ENTRY org.eclipse.ajdt.core 1 0 2015-07-17 00:31:51.945
+!MESSAGE AJC: woven class il.ac.wis.cs.playgo.playtoolkit.container.PlayableFramework (from /home/michael/Documents/msc/BPBasedLanguageSemantics/playgo-workspace/LscComplianceSuite/lib/il.ac.wis.cs.playgo.playToolkit.jar)
+
+!ENTRY org.eclipse.ajdt.core 1 0 2015-07-17 00:31:51.952
+!MESSAGE AJC: woven class il.ac.wis.cs.playgo.playtoolkit.container.PlayableContainer$ContainedComponent (from /home/michael/Documents/msc/BPBasedLanguageSemantics/playgo-workspace/LscComplianceSuite/lib/il.ac.wis.cs.playgo.playToolkit.jar)
+
+!ENTRY org.eclipse.ajdt.core 1 0 2015-07-17 00:31:52.009
+!MESSAGE AJC: woven class il.ac.wis.cs.playgo.playtoolkit.container.PlayableContainer (from /home/michael/Documents/msc/BPBasedLanguageSemantics/playgo-workspace/LscComplianceSuite/lib/il.ac.wis.cs.playgo.playToolkit.jar)
+
+!ENTRY org.eclipse.ajdt.core 1 0 2015-07-17 00:31:52.122
+!MESSAGE AJC: compiled: /home/michael/Documents/msc/BPBasedLanguageSemantics/playgo-workspace/LscComplianceSuite/src/playgo/systemmodel/SystemModelAgent.java
+
+!ENTRY org.eclipse.ajdt.core 1 0 2015-07-17 00:31:52.154
+!MESSAGE AJC: woven class playgo.systemmodel.SystemModelAgent (from /home/michael/Documents/msc/BPBasedLanguageSemantics/playgo-workspace/LscComplianceSuite/src/playgo/systemmodel/SystemModelAgent.java)
+
+!ENTRY org.eclipse.ajdt.core 1 0 2015-07-17 00:31:52.167
+!MESSAGE AJC: compiled: /home/michael/Documents/msc/BPBasedLanguageSemantics/playgo-workspace/LscComplianceSuite/src/playgo/systemmodel/classes/generated/EnvGenerated.java
+
+!ENTRY org.eclipse.ajdt.core 1 0 2015-07-17 00:31:52.169
+!MESSAGE AJC: woven class playgo.systemmodel.classes.generated.EnvGenerated (from /home/michael/Documents/msc/BPBasedLanguageSemantics/playgo-workspace/LscComplianceSuite/src/playgo/systemmodel/classes/generated/EnvGenerated.java)
+
+!ENTRY org.eclipse.ajdt.core 1 0 2015-07-17 00:31:52.177
+!MESSAGE AJC: compiled: /home/michael/Documents/msc/BPBasedLanguageSemantics/playgo-workspace/LscComplianceSuite/src/playgo/systemmodel/classes/Env.java
+
+!ENTRY org.eclipse.ajdt.core 1 0 2015-07-17 00:31:52.204
+!MESSAGE AJC: woven class playgo.systemmodel.classes.Env (from /home/michael/Documents/msc/BPBasedLanguageSemantics/playgo-workspace/LscComplianceSuite/src/playgo/systemmodel/classes/Env.java)
+
+!ENTRY org.eclipse.ui 4 0 2015-07-17 00:33:56.396
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NullPointerException
+	at il.ac.wis.cs.diagram.gef.lsc.editor.creation.LSCElementCreationUtils.createStateInvariant(LSCElementCreationUtils.java:107)
+	at il.ac.wis.cs.diagram.gef.lsc.editor.creation.LSCElementCreationFactory.getNewObject(LSCElementCreationFactory.java:81)
+	at org.eclipse.gef.requests.CreateRequest.getNewObject(CreateRequest.java:79)
+	at org.eclipse.gef.tools.CreationTool.selectAddedObject(CreationTool.java:277)
+	at org.eclipse.gef.tools.CreationTool.performCreation(CreationTool.java:270)
+	at org.eclipse.gef.tools.CreationTool.handleButtonUp(CreationTool.java:189)
+	at il.ac.wis.cs.diagram.gef.lsc.editor.tool.LSCCreationTool.handleButtonUp(LSCCreationTool.java:76)
+	at org.eclipse.gef.tools.AbstractTool.mouseUp(AbstractTool.java:1200)
+	at org.eclipse.gef.EditDomain.mouseUp(EditDomain.java:301)
+	at org.eclipse.gef.ui.parts.DomainEventDispatcher.dispatchMouseReleased(DomainEventDispatcher.java:380)
+	at org.eclipse.draw2d.LightweightSystem$EventHandler.mouseUp(LightweightSystem.java:548)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:220)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1392)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3742)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3363)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$9.run(PartRenderingEngine.java:1113)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:997)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:140)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:611)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:567)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:124)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:354)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:181)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:636)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:591)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1450)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1426)
+
+!ENTRY org.eclipse.ui 4 0 2015-07-17 00:35:18.447
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NullPointerException
+	at il.ac.wis.cs.diagram.gef.lsc.editor.creation.LSCElementCreationUtils.createStateInvariant(LSCElementCreationUtils.java:107)
+	at il.ac.wis.cs.diagram.gef.lsc.editor.creation.LSCElementCreationFactory.getNewObject(LSCElementCreationFactory.java:81)
+	at org.eclipse.gef.requests.CreateRequest.getNewObject(CreateRequest.java:79)
+	at org.eclipse.gef.tools.CreationTool.selectAddedObject(CreationTool.java:277)
+	at org.eclipse.gef.tools.CreationTool.performCreation(CreationTool.java:270)
+	at org.eclipse.gef.tools.CreationTool.handleButtonUp(CreationTool.java:189)
+	at il.ac.wis.cs.diagram.gef.lsc.editor.tool.LSCCreationTool.handleButtonUp(LSCCreationTool.java:76)
+	at org.eclipse.gef.tools.AbstractTool.mouseUp(AbstractTool.java:1200)
+	at org.eclipse.gef.EditDomain.mouseUp(EditDomain.java:301)
+	at org.eclipse.gef.ui.parts.DomainEventDispatcher.dispatchMouseReleased(DomainEventDispatcher.java:380)
+	at org.eclipse.draw2d.LightweightSystem$EventHandler.mouseUp(LightweightSystem.java:548)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:220)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1392)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3742)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3363)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$9.run(PartRenderingEngine.java:1113)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:997)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:140)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:611)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:567)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:124)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:354)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:181)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:636)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:591)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1450)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1426)

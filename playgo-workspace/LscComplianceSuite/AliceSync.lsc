@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20110701" xmlns:xmi="http://www.omg.org/spec/XMI/20110701" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:LSC="http:///schemas/LSC/_qIZRkHLwEeStz5mzO62lGg/0" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/4.0.0/UML" xmlns:visual="http:///schemas/visual/_qJihEHLwEeStz5mzO62lGg/0" xsi:schemaLocation="http:///schemas/LSC/_qIZRkHLwEeStz5mzO62lGg/0 platform:/playgoResource/resources/profiles/LSC.profile.uml#_UXHg8ktjEeOIUs0KoNYPKA http:///schemas/visual/_qJihEHLwEeStz5mzO62lGg/0 platform:/playgoResource/resources/profiles/visual.profile.uml#_UYHmgktjEeOIUs0KoNYPKA">
+  <uml:Model xmi:id="_ML96gCwCEeW--YbKo9Hbew" name="LscComplianceSuite">
+    <packagedElement xmi:type="uml:Collaboration" xmi:id="_MMkXcCwCEeW--YbKo9Hbew" name="AliceSync">
+      <ownedAttribute xmi:id="_P9C_cCwCEeW--YbKo9Hbew" name="Env" type="_P9CYYCwCEeW--YbKo9Hbew"/>
+      <ownedAttribute xmi:id="_URzZMSwCEeW--YbKo9Hbew" name="Person" type="_URzZMCwCEeW--YbKo9Hbew"/>
+      <ownedBehavior xmi:type="uml:Interaction" xmi:id="_PPeHwCwCEeW--YbKo9Hbew" name="main">
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_WlIGsCwCEeW--YbKo9Hbew" name="trigger-InvocationStart" covered="_P87qsCwCEeW--YbKo9Hbew" message="_WlG4kCwCEeW--YbKo9Hbew"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_WlIGsiwCEeW--YbKo9Hbew" name="trigger-ExecutionStart" covered="_URmk4CwCEeW--YbKo9Hbew" message="_WlG4kCwCEeW--YbKo9Hbew"/>
+        <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_WlIGtCwCEeW--YbKo9Hbew" name="trigger-invocationBody" covered="_P87qsCwCEeW--YbKo9Hbew" finish="_WlJ74SwCEeW--YbKo9Hbew" start="_WlIGsCwCEeW--YbKo9Hbew"/>
+        <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_WlItwCwCEeW--YbKo9Hbew" name="trigger-executionBody" covered="_URmk4CwCEeW--YbKo9Hbew" finish="_WlItwSwCEeW--YbKo9Hbew" start="_WlIGsiwCEeW--YbKo9Hbew"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_WlItwSwCEeW--YbKo9Hbew" name="trigger-ExecutionFinish" covered="_URmk4CwCEeW--YbKo9Hbew"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_WlJ74SwCEeW--YbKo9Hbew" name="trigger-InvocationFinish" covered="_P87qsCwCEeW--YbKo9Hbew"/>
+        <fragment xmi:type="uml:StateInvariant" xmi:id="_X1QR0CwCEeW--YbKo9Hbew" name="SYNC" covered="_URmk4CwCEeW--YbKo9Hbew">
+          <invariant xmi:id="_X1SHACwCEeW--YbKo9Hbew" name="true">
+            <specification xmi:type="uml:OpaqueExpression" xmi:id="_X1SHASwCEeW--YbKo9Hbew">
+              <body>true</body>
+            </specification>
+          </invariant>
+        </fragment>
+        <lifeline xmi:id="_P87qsCwCEeW--YbKo9Hbew" name="User" represents="_P9C_cCwCEeW--YbKo9Hbew" coveredBy="_WlIGsCwCEeW--YbKo9Hbew _WlJ74SwCEeW--YbKo9Hbew _WlIGtCwCEeW--YbKo9Hbew"/>
+        <lifeline xmi:id="_URmk4CwCEeW--YbKo9Hbew" name="Alice" represents="_URzZMSwCEeW--YbKo9Hbew" coveredBy="_WlIGsiwCEeW--YbKo9Hbew _WlItwSwCEeW--YbKo9Hbew _WlItwCwCEeW--YbKo9Hbew _X1QR0CwCEeW--YbKo9Hbew"/>
+        <message xmi:id="_WlG4kCwCEeW--YbKo9Hbew" name="trigger" receiveEvent="_WlIGsiwCEeW--YbKo9Hbew" sendEvent="_WlIGsCwCEeW--YbKo9Hbew" signature="_WlNmQCwCEeW--YbKo9Hbew"/>
+      </ownedBehavior>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Component" xmi:id="_P9CYYCwCEeW--YbKo9Hbew" name="Env"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_URzZMCwCEeW--YbKo9Hbew" name="Person">
+      <ownedOperation xmi:id="_WlNmQCwCEeW--YbKo9Hbew" name="trigger"/>
+    </packagedElement>
+    <profileApplication xmi:id="_ML96gSwCEeW--YbKo9Hbew">
+      <eAnnotations xmi:id="_ML96giwCEeW--YbKo9Hbew" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="platform:/playgoResource/resources/profiles/visual.profile.uml#_UYHmgktjEeOIUs0KoNYPKA"/>
+      </eAnnotations>
+      <appliedProfile href="platform:/playgoResource/resources/profiles/visual.profile.uml#_UYHmgEtjEeOIUs0KoNYPKA"/>
+    </profileApplication>
+    <profileApplication xmi:id="_ML96gywCEeW--YbKo9Hbew">
+      <eAnnotations xmi:id="_ML96hCwCEeW--YbKo9Hbew" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="platform:/playgoResource/resources/profiles/LSC.profile.uml#_UXHg8ktjEeOIUs0KoNYPKA"/>
+      </eAnnotations>
+      <appliedProfile href="platform:/playgoResource/resources/profiles/LSC.profile.uml#_UXHg8EtjEeOIUs0KoNYPKA"/>
+    </profileApplication>
+  </uml:Model>
+  <LSC:Collaboration xmi:id="_MTxLoCwCEeW--YbKo9Hbew" base_Collaboration="_MMkXcCwCEeW--YbKo9Hbew" LscId="1437082363226"/>
+  <visual:Interaction xmi:id="_PPf88CwCEeW--YbKo9Hbew" base_Interaction="_PPeHwCwCEeW--YbKo9Hbew" Width="321" Height="490" X="50" Y="30"/>
+  <LSC:Interaction xmi:id="_PPf88SwCEeW--YbKo9Hbew" base_Interaction="_PPeHwCwCEeW--YbKo9Hbew" Mode="Universal" LscId="1437082382912" LSCCollaboration="_MMkXcCwCEeW--YbKo9Hbew"/>
+  <LSC:Lifeline xmi:id="_P88RwCwCEeW--YbKo9Hbew" base_Lifeline="_P87qsCwCEeW--YbKo9Hbew" Type="User" LscId="1437082387676" Binding="Static" PolymorphicScope="Deep"/>
+  <visual:Lifeline xmi:id="_P88RwSwCEeW--YbKo9Hbew" base_Lifeline="_P87qsCwCEeW--YbKo9Hbew" Width="100" Height="400" X="50" Y="50"/>
+  <LSC:Property xmi:id="_P9C_cSwCEeW--YbKo9Hbew" base_Property="_P9C_cCwCEeW--YbKo9Hbew"/>
+  <LSC:Lifeline xmi:id="_URnzACwCEeW--YbKo9Hbew" base_Lifeline="_URmk4CwCEeW--YbKo9Hbew" LscId="1437082416689" Binding="Static" PolymorphicScope="Deep"/>
+  <visual:Lifeline xmi:id="_URnzASwCEeW--YbKo9Hbew" base_Lifeline="_URmk4CwCEeW--YbKo9Hbew" Width="100" Height="400" X="200" Y="50"/>
+  <LSC:Property xmi:id="_UR0AQCwCEeW--YbKo9Hbew" base_Property="_URzZMSwCEeW--YbKo9Hbew"/>
+  <LSC:Message xmi:id="_WlHfoCwCEeW--YbKo9Hbew" base_Message="_WlG4kCwCEeW--YbKo9Hbew" LscId="1437082432154" Operation="_WlNmQCwCEeW--YbKo9Hbew"/>
+  <LSC:MessageOccurrenceSpecification xmi:id="_WlIGsSwCEeW--YbKo9Hbew" base_MessageOccurrenceSpecification="_WlIGsCwCEeW--YbKo9Hbew"/>
+  <LSC:MessageOccurrenceSpecification xmi:id="_WlIGsywCEeW--YbKo9Hbew" base_MessageOccurrenceSpecification="_WlIGsiwCEeW--YbKo9Hbew"/>
+  <LSC:MessageOccurrenceSpecification xmi:id="_WlJ74CwCEeW--YbKo9Hbew" base_MessageOccurrenceSpecification="_WlItwSwCEeW--YbKo9Hbew"/>
+  <LSC:MessageOccurrenceSpecification xmi:id="_WlM_MCwCEeW--YbKo9Hbew" base_MessageOccurrenceSpecification="_WlJ74SwCEeW--YbKo9Hbew"/>
+  <LSC:Operation xmi:id="_WlNmQSwCEeW--YbKo9Hbew" base_Operation="_WlNmQCwCEeW--YbKo9Hbew" ActionOnProperty="None"/>
+  <LSC:StateInvariant xmi:id="_X1Q44CwCEeW--YbKo9Hbew" base_StateInvariant="_X1QR0CwCEeW--YbKo9Hbew" Label="" LscId="1437082440559"/>
+  <visual:StateInvariant xmi:id="_X1Rf8CwCEeW--YbKo9Hbew" base_StateInvariant="_X1QR0CwCEeW--YbKo9Hbew" Width="80" Height="20" X="261" Y="236"/>
+</xmi:XMI>
