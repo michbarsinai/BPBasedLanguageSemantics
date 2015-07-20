@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/wisdom_dev/!svn/ver/8261/users/michael/code/bactivity/trunk/BActivity/src/bp/bflow/core/events
+END
+BStepFailureEvent.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/wisdom_dev/!svn/ver/8261/users/michael/code/bactivity/trunk/BActivity/src/bp/bflow/core/events/BStepFailureEvent.java
+END
+BStepEvent.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/wisdom_dev/!svn/ver/8261/users/michael/code/bactivity/trunk/BActivity/src/bp/bflow/core/events/BStepEvent.java
+END
+IdentityEvent.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/wisdom_dev/!svn/ver/8261/users/michael/code/bactivity/trunk/BActivity/src/bp/bflow/core/events/IdentityEvent.java
+END
+BStepOverEvent.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/wisdom_dev/!svn/ver/8261/users/michael/code/bactivity/trunk/BActivity/src/bp/bflow/core/events/BStepOverEvent.java
+END
+BStepStartEvent.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/wisdom_dev/!svn/ver/8261/users/michael/code/bactivity/trunk/BActivity/src/bp/bflow/core/events/BStepStartEvent.java
+END
+BStepSuccessEvent.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/wisdom_dev/!svn/ver/8261/users/michael/code/bactivity/trunk/BActivity/src/bp/bflow/core/events/BStepSuccessEvent.java
+END

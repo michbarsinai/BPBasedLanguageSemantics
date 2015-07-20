@@ -1,0 +1,3 @@
+stateHashingTest 
+
+-DrunMode=MCSafety

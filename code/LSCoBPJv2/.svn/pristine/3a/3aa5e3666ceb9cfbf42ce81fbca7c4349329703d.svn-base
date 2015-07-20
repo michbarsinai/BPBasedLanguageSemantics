@@ -1,0 +1,20 @@
+package org.b_prog.lscobpjv2.events.lsc;
+
+import bp.Event;
+
+/**
+ * Base class for events of the LSC language. These are also
+ * BP events, and create their own "enabled" event.
+ * @author michael
+ */
+public abstract class LscEvent extends Event {
+    
+    /**
+     * A BP event signaling that the LSC event is on the cut of the live LSC copy.
+     */
+    private final LscMetaEvent<LscEvent> enabledEvent = LscMetaEvent.forEvent(this, "enabled");
+    
+    public LscMetaEvent<LscEvent> getEnabledEvent() {
+        return enabledEvent;
+    }
+}

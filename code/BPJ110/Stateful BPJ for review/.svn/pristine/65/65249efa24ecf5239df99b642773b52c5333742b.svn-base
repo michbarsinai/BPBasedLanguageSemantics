@@ -1,0 +1,5 @@
+Bridge MC
+
+-DrunMode=MCSafety
+-DdisableStateHashing=true
+-Drecursive=true

@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/wisdom_dev/!svn/ver/8365/users/michael/code/bactivity/trunk/BActivity/src/bp/bflow/core/dslhelpers
+END
+package-info.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/wisdom_dev/!svn/ver/8261/users/michael/code/bactivity/trunk/BActivity/src/bp/bflow/core/dslhelpers/package-info.java
+END
+SequentialBFlow.java
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/wisdom_dev/!svn/ver/8346/users/michael/code/bactivity/trunk/BActivity/src/bp/bflow/core/dslhelpers/SequentialBFlow.java
+END
+ParallelBFlow.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/wisdom_dev/!svn/ver/8365/users/michael/code/bactivity/trunk/BActivity/src/bp/bflow/core/dslhelpers/ParallelBFlow.java
+END
+Broadcaster.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/wisdom_dev/!svn/ver/8365/users/michael/code/bactivity/trunk/BActivity/src/bp/bflow/core/dslhelpers/Broadcaster.java
+END
+BFlowSpawner.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/wisdom_dev/!svn/ver/8365/users/michael/code/bactivity/trunk/BActivity/src/bp/bflow/core/dslhelpers/BFlowSpawner.java
+END
+CondBFlow.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/wisdom_dev/!svn/ver/8365/users/michael/code/bactivity/trunk/BActivity/src/bp/bflow/core/dslhelpers/CondBFlow.java
+END
+EventWaiter.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/wisdom_dev/!svn/ver/8365/users/michael/code/bactivity/trunk/BActivity/src/bp/bflow/core/dslhelpers/EventWaiter.java
+END
+TryExecBFlow.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/wisdom_dev/!svn/ver/8365/users/michael/code/bactivity/trunk/BActivity/src/bp/bflow/core/dslhelpers/TryExecBFlow.java
+END

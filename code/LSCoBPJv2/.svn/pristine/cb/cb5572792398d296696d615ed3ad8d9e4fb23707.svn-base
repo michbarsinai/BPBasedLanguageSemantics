@@ -1,0 +1,28 @@
+package org.b_prog.lscobpjv2.bplscruntime.agentbthreads;
+
+import bp.BThread;
+import bp.eventSets.EventSets;
+import bp.exceptions.BPJRequestableSetException;
+import org.b_prog.lscobpjv2.bplscruntime.LiveLscCopy;
+
+/**
+ * CAB dealing w
+ * @author michael
+ */
+public class LscChartCab extends BThread {
+    
+    private final LiveLscCopy liveCopy;
+
+    public LscChartCab(LiveLscCopy liveCopy) {
+        this.liveCopy = liveCopy;
+    }
+    
+    @Override
+    public void runBThread() throws InterruptedException, BPJRequestableSetException {
+        
+        getBProgram().bSync(liveCopy.getCompletionEvent().getEnabledEvent(),
+                            EventSets.none(),
+                            liveCopy.getCompletionEvent());
+    }
+    
+}

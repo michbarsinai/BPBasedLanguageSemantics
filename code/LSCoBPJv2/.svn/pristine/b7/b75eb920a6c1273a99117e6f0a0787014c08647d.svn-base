@@ -1,0 +1,35 @@
+package org.b_prog.lscobpjv2.mains;
+
+import org.b_prog.lscobpjv2.lsclang.syntax.LSC;
+import org.b_prog.lscobpjv2.lsclang.syntax.Lifeline;
+import org.b_prog.lscobpjv2.lsclang.syntax.LscClass;
+import org.b_prog.lscobpjv2.lsclang.syntax.Message;
+import org.b_prog.lscobpjv2.lsclang.Modality;
+import org.b_prog.lscobpjv2.lsclang.syntax.Sync;
+
+/**
+ *
+ * @author michael
+ */
+public class SimpleLSC {
+    
+    public static void main(String[] args) {
+        LSC lsc = new LSC();
+        
+        LscClass personClass = new LscClass("Person");
+        
+        Lifeline alice = lsc.addNewLifeline("alice", personClass);
+        Lifeline bob = lsc.addNewLifeline("bob", personClass);
+        
+        Message msg = new Message("Hello", Modality.Temperature.Hot, Modality.Trigger.Execution);
+        alice.appendLocation( msg.getSendLocation() );
+        bob.appendLocation( msg.getReceiveLocation() );
+        
+        Sync sync = new Sync();
+        alice.appendLocation( sync.getLocation() );
+        bob.appendLocation( sync.getLocation() );
+        
+        
+    }
+    
+}

@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/wisdom_dev/!svn/ver/13041/users/michael/code/calc/trunk/src/calc/binterperter/bthreads
+END
+EvaluationBThread.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/wisdom_dev/!svn/ver/13087/users/michael/code/calc/trunk/src/calc/binterperter/bthreads/EvaluationBThread.java
+END
+AssignmentBThread.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/wisdom_dev/!svn/ver/13043/users/michael/code/calc/trunk/src/calc/binterperter/bthreads/AssignmentBThread.java
+END
+AtomEvaluator.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/wisdom_dev/!svn/ver/13043/users/michael/code/calc/trunk/src/calc/binterperter/bthreads/AtomEvaluator.java
+END
+AdditionBThread.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/wisdom_dev/!svn/ver/13087/users/michael/code/calc/trunk/src/calc/binterperter/bthreads/AdditionBThread.java
+END
+BinaryOpEvalBThread.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/wisdom_dev/!svn/ver/13043/users/michael/code/calc/trunk/src/calc/binterperter/bthreads/BinaryOpEvalBThread.java
+END
+MultiplicationBThread.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/wisdom_dev/!svn/ver/13043/users/michael/code/calc/trunk/src/calc/binterperter/bthreads/MultiplicationBThread.java
+END
+SubtractionBThread.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/wisdom_dev/!svn/ver/13043/users/michael/code/calc/trunk/src/calc/binterperter/bthreads/SubtractionBThread.java
+END
+SymbolTableBThread.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/wisdom_dev/!svn/ver/13087/users/michael/code/calc/trunk/src/calc/binterperter/bthreads/SymbolTableBThread.java
+END
+EvalErrorBThread.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/wisdom_dev/!svn/ver/13087/users/michael/code/calc/trunk/src/calc/binterperter/bthreads/EvalErrorBThread.java
+END
+CalcBThread.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/wisdom_dev/!svn/ver/13043/users/michael/code/calc/trunk/src/calc/binterperter/bthreads/CalcBThread.java
+END
+CalcInterpreterBt.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/wisdom_dev/!svn/ver/13087/users/michael/code/calc/trunk/src/calc/binterperter/bthreads/CalcInterpreterBt.java
+END

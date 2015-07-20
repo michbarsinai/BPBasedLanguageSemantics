@@ -1,0 +1,27 @@
+package org.b_prog.lscobpjv2.lsclang.syntax.locations;
+
+import org.b_prog.lscobpjv2.lsclang.Modality;
+import static org.b_prog.lscobpjv2.lsclang.Modality.Temperature.Cold;
+import org.b_prog.lscobpjv2.lsclang.syntax.Sync;
+
+/**
+ * @author michael
+ */
+public class SyncLocation extends Location {
+    
+    private final Sync sync;
+
+    public SyncLocation(Sync sync) {
+        this.sync = sync;
+    }
+    
+    @Override
+    public Modality.Temperature getTemperature() {
+        return Cold;
+    }
+
+    public Sync getSync() {
+        return sync;
+    }
+
+}

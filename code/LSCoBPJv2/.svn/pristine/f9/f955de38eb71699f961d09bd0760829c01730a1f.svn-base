@@ -1,0 +1,15 @@
+package org.b_prog.lscobpjv2.lsclang.syntax;
+
+import org.b_prog.lscobpjv2.lsclang.syntax.locations.SyncLocation;
+
+/**
+ * An LSC Sync construct.
+ * @author michael
+ */
+public class Sync extends LscConstruct {
+    
+    public SyncLocation getLocation() {
+        return new SyncLocation(this);
+    }
+    
+}

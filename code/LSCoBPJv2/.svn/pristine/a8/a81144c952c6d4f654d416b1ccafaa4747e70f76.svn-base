@@ -1,0 +1,32 @@
+package org.b_prog.lscobpjv2.events;
+
+import bp.Event;
+import org.b_prog.lscobpjv2.lsclang.syntax.locations.Location;
+
+/**
+ * The event of a {@line Lifeline} entering a {@link Location}.
+ * @author michael
+ */
+public class LocationEntry extends Event {
+    
+    private final Location location;
+
+    public LocationEntry(Location location) {
+        super( "[LocationEntry " + location + "]");
+        this.location = location;
+    }
+
+    @Override
+    public boolean contains(Object o) {
+        return (o instanceof LocationEntry)
+                   && ((LocationEntry)o).getLocation().equals(getLocation());
+                
+    }
+    
+    
+    
+    public Location getLocation() {
+        return location;
+    }
+    
+}

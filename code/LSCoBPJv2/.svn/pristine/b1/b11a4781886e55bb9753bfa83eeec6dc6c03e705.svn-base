@@ -1,0 +1,26 @@
+package org.b_prog.lscobpjv2.lsclang.syntax.locations;
+
+import org.b_prog.lscobpjv2.lsclang.syntax.Message;
+import org.b_prog.lscobpjv2.lsclang.Modality;
+
+/**
+ *
+ * @author michael
+ */
+public class MessageSendLocation extends Location {
+    private final Message message;
+
+    public MessageSendLocation(Message message) {
+        this.message = message;
+    }
+
+    public Message getMessage() {
+        return message;
+    }
+
+    @Override
+    public Modality.Temperature getTemperature() {
+        return getMessage().getTemperature();
+    }
+    
+}

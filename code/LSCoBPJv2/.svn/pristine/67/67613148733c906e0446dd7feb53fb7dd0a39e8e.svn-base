@@ -1,0 +1,48 @@
+package org.b_prog.lscobpjv2.mains;
+
+import bp.BProgram;
+import bp.BThread;
+import org.b_prog.lscobpjv2.bplscruntime.LiveLscCopy;
+import org.b_prog.lscobpjv2.lsclang.syntax.LSC;
+import org.b_prog.lscobpjv2.lsclang.syntax.Lifeline;
+import org.b_prog.lscobpjv2.lsclang.syntax.LscClass;
+import org.b_prog.lscobpjv2.lsclang.syntax.Sync;
+
+/**
+ * TODO: add titles to all constructs, to allow better debugging.
+ * @author michael
+ */
+public class SimpleLSC {
+    
+    public static void main(String[] args) {
+        LSC lsc = new LSC("Simple LSC");
+        // TODO don't pass location objects to the lifelines. HAve them create the locations on the LscConstructs.
+        LscClass personClass = new LscClass("Person");
+        
+        Lifeline alice = lsc.addNewLifeline("alice", personClass);
+        Lifeline bob = lsc.addNewLifeline("bob", personClass);
+        
+//        Message msg = new Message("Hello", Modality.Temperature.Hot, Modality.Trigger.Execution);
+//        alice.appendLocation( msg.getSendLocation() );
+//        bob.appendLocation( msg.getReceiveLocation() );
+//        
+        Sync sync = new Sync("Alice & Bob");
+        alice.append( sync );
+        bob.append( sync );
+        
+        Sync bobSync = new Sync("Bob Only");
+        bob.append( bobSync );
+        
+        LiveLscCopy liveCopy = new LiveLscCopy(lsc);
+        
+        BProgram bp = new BProgram();
+        double p=1;
+        for ( BThread bt : liveCopy.interpret() ) {
+            bp.add(bt, p);
+            p += 1.0;
+        }
+        
+        bp.startAll();
+    }
+    
+}

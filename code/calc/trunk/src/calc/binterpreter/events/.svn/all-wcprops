@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/wisdom_dev/!svn/ver/13041/users/michael/code/calc/trunk/src/calc/binterperter/events
+END
+SymbolTableEvent.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/wisdom_dev/!svn/ver/13043/users/michael/code/calc/trunk/src/calc/binterperter/events/SymbolTableEvent.java
+END
+StReadResponse.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/wisdom_dev/!svn/ver/13043/users/michael/code/calc/trunk/src/calc/binterperter/events/StReadResponse.java
+END
+EvaluationErrorEvent.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/wisdom_dev/!svn/ver/13087/users/michael/code/calc/trunk/src/calc/binterperter/events/EvaluationErrorEvent.java
+END
+CalcEvent.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/wisdom_dev/!svn/ver/13087/users/michael/code/calc/trunk/src/calc/binterperter/events/CalcEvent.java
+END
+CalcSystemShutdownEvent.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/wisdom_dev/!svn/ver/13041/users/michael/code/calc/trunk/src/calc/binterperter/events/CalcSystemShutdownEvent.java
+END
+StWriteRequest.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/wisdom_dev/!svn/ver/13043/users/michael/code/calc/trunk/src/calc/binterperter/events/StWriteRequest.java
+END
+StReadRequest.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/wisdom_dev/!svn/ver/13043/users/michael/code/calc/trunk/src/calc/binterperter/events/StReadRequest.java
+END
+ExpressionEvaluatedEvent.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/wisdom_dev/!svn/ver/13087/users/michael/code/calc/trunk/src/calc/binterperter/events/ExpressionEvaluatedEvent.java
+END

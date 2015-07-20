@@ -1,0 +1,12 @@
+HelloWorld  BPApp - BFS
+
+bp.unittest.HelloWorld
+
+-DrunMode=MCSafety
+-Dshallow=true
+------------------------------------
+HelloWorld  BPApp - MCDet
+
+
+-DrunMode=MCDet
+-Dshallow=true

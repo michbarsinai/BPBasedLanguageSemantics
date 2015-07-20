@@ -1,0 +1,25 @@
+package org.b_prog.lscobpjv2.lsclang.syntax;
+
+import java.util.Map;
+import java.util.TreeMap;
+
+/**
+ * A an LSC (live sequence chart). This object covers the static aspects of
+ * the chart - to get an live copy of an LSC, invoke {@link #activate()}.
+ * 
+ * @author michael
+ */
+public class LSC {
+    
+    /**
+     * Lifelines participating in this LSC.
+     */
+    private final Map<String, Lifeline> lifelines = new TreeMap<>();
+    
+    public Lifeline addNewLifeline( String anId, LscClass aClass ) {
+        Lifeline theNewLifeline = new Lifeline(anId, this, aClass);
+        lifelines.put(anId, theNewLifeline);
+        return theNewLifeline;
+    }
+    // TODO activate() - generate the lifelines that will traverse the chart. What should it return?
+}

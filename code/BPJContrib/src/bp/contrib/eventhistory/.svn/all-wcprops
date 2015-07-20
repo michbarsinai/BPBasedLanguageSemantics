@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/wisdom_dev/!svn/ver/7834/BPJ/BPJContrib/trunk/src/bp/contrib/eventhistory
+END
+EventHistoryQuery.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/wisdom_dev/!svn/ver/7834/BPJ/BPJContrib/trunk/src/bp/contrib/eventhistory/EventHistoryQuery.java
+END
+EventHistoryWriter.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/wisdom_dev/!svn/ver/6535/BPJ/BPJContrib/trunk/src/bp/contrib/eventhistory/EventHistoryWriter.java
+END
+EventHistoryWriterFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/wisdom_dev/!svn/ver/6535/BPJ/BPJContrib/trunk/src/bp/contrib/eventhistory/EventHistoryWriterFactory.java
+END
+EventOccurrence.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/wisdom_dev/!svn/ver/6535/BPJ/BPJContrib/trunk/src/bp/contrib/eventhistory/EventOccurrence.java
+END
+EventHistory.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/wisdom_dev/!svn/ver/7977/BPJ/BPJContrib/trunk/src/bp/contrib/eventhistory/EventHistory.java
+END
+EventHistorian.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/wisdom_dev/!svn/ver/6535/BPJ/BPJContrib/trunk/src/bp/contrib/eventhistory/EventHistorian.java
+END
+package-info.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/wisdom_dev/!svn/ver/6535/BPJ/BPJContrib/trunk/src/bp/contrib/eventhistory/package-info.java
+END
