@@ -1,5 +1,0 @@
-AddingBApp - MC recursive 
-
--DrunMode=MCSafety
--DsuppressDeadlock=true
--Drecursive=true

@@ -1,8 +1,0 @@
-Terma MC DFS
-
--Xss100000k
--DShallow=true
--Xmn200M
--Xms700M
--Xmx700M
--DSearch=DFS

@@ -1,9 +1,0 @@
-BridgeSymbolic 
-
--DrunMode=MCSafety
--Xss10000k
--Xmn100M
--Xms1300M
--Xmx1300M
--Drecursive=true
--DdisableStateHashing=true
