@@ -92,7 +92,7 @@ public aspect MSDCoordinatorAspect extends MSDCoordinator
 
 	pointcut MSDMessage():
 	call(void trigger(..))
-	|| execution(void hello(..));
+	|| call(void hello(..));
 
 
 	after (): MSDMessage()

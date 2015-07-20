@@ -18,16 +18,17 @@ public aspect MSDAspectmain extends MSDAspect
 	//Constants for instances, locations and variables
 	static final int Env_INST_User = 0;
 	static final int Person_INST_Alice = 1;
+	static final int Person_INST_Bob = 2;
 
 
 	MSDAspectmain()
 	{
 		addMinimalEvent(MSDMethods.Env_Person_trigger);
-		setLastCut(1,2);
-		numberOfLifeLines = 2;
-		numberOfInstances = 2;
+		setLastCut(1,3,3);
+		numberOfLifeLines = 3;
+		numberOfInstances = 3;
 		numberOfVariables = 0;
-		interactionId = "1437031380060";
+		interactionId = "1437026427267";
 		setCutsExpressions();
 	}
 
@@ -70,15 +71,15 @@ public aspect MSDAspectmain extends MSDAspect
 					user,alice,null);
 	}
 
-	pointcut Person_Person_hello(Object alice):
-		execution(void hello(..))
-		&& if(alice instanceof Person)
-		&& target(alice) ;
+	pointcut Person_Person_hello(Person alice, Object bob):
+		call(void hello(..))
+		&& if(bob instanceof Person)
+		&& target(bob) && this(alice) ;
 
-	after(Object alice):Person_Person_hello(alice)
+	after(Person alice,Object bob):Person_Person_hello(alice,bob)
 	{
 		changeCutState(MSDMethods.Person_Person_hello,
-					alice,alice,null);
+					alice,bob,null);
 	}
 
 	// MSD Logic:
@@ -93,9 +94,9 @@ public aspect MSDAspectmain extends MSDAspect
 				if(activeMSD.instancesEquals(Person_INST_Alice,targetObject))
 				{
 					unification=true;
-					if(activeMSD.isInCut(0,0))
+					if(activeMSD.isInCut(0,0,0))
 					{
-						activeMSD.setCut(1,1);
+						activeMSD.setCut(1,1,0);
 						return;
 					}
 				}
@@ -105,12 +106,23 @@ public aspect MSDAspectmain extends MSDAspect
 
 			case MSDMethods.Person_Person_hello:
 				if(activeMSD.instancesEquals(Person_INST_Alice,sourceObject)
-					&& activeMSD.instancesEquals(Person_INST_Alice,targetObject))
+					&& activeMSD.instancesEquals(Person_INST_Bob,targetObject))
 				{
 					unification=true;
-					if(activeMSD.isInCut(1,1))
+					if(activeMSD.isInCut(1,1,0))
 					{
-						activeMSD.setCut(1,2);
+						activeMSD.setCut(1,2,1);
+						if(evaluateCondition(2,activeMSD))
+						{
+							activeMSD.setCut(1,2,2);
+							activeMSD.setCut(1,2,2);
+							if(evaluateCondition(2,activeMSD))
+							{
+								activeMSD.setCut(1,3,3);
+								break;
+							}
+							break;
+						}
 						break;
 					}
 				}
@@ -128,9 +140,12 @@ public aspect MSDAspectmain extends MSDAspect
 	{
 		Env User = (Env)bindObjectByExpression(activeMSD,Env_INST_User,null, true);;
 		Person Alice = (Person)bindObjectByExpression(activeMSD,Person_INST_Alice,null, true);;
+		Person Bob = (Person)bindObjectByExpression(activeMSD,Person_INST_Bob,null, true);;
 
 		switch (conditionNumber)
 		{
+			case 2: 
+				return true;
 		}
 		return false;
 	}
@@ -138,6 +153,8 @@ public aspect MSDAspectmain extends MSDAspect
 
 	protected void setCutsExpressions()
 	{
+		this.setExpressionForCut("1,3,3" , "SYNC");
+		this.setExpressionForCut("1,2,2" , "SYNC");
 
 	}
 
@@ -147,9 +164,11 @@ public aspect MSDAspectmain extends MSDAspect
 	{
 		Env User = (Env)bindObjectByExpression(activeMSD,Env_INST_User,null, true);;
 		Person Alice = (Person)bindObjectByExpression(activeMSD,Person_INST_Alice,null, true);;
+		Person Bob = (Person)bindObjectByExpression(activeMSD,Person_INST_Bob,null, true);;
 
 		activeMSD.setLineInstance(Env_INST_User,AppObjects.getObject("User","Env"));
 		activeMSD.setLineInstance(Person_INST_Alice,AppObjects.getObject("Alice","Person"));
+		activeMSD.setLineInstance(Person_INST_Bob,AppObjects.getObject("Bob","Person"));
 
 	}
 
@@ -168,19 +187,20 @@ public aspect MSDAspectmain extends MSDAspect
 	{
 		Env User = (Env)bindObjectByExpression(activeMSD,Env_INST_User,null, true);;
 		Person Alice = (Person)bindObjectByExpression(activeMSD,Person_INST_Alice,null, true);;
+		Person Bob = (Person)bindObjectByExpression(activeMSD,Person_INST_Bob,null, true);;
 
 		MSDMethod MSDm0 = new MSDMethod(User,Alice,
 			MSDMethods.Env_Person_trigger,null,"Env:Person:trigger",this.getNiceName(),activeMSD.getId());// trigger() Monitored
-		MSDMethod MSDm1 = new MSDMethod(Alice,Alice,
+		MSDMethod MSDm1 = new MSDMethod(Alice,Bob,
 			MSDMethods.Person_Person_hello,null,"Person:Person:hello",this.getNiceName(),activeMSD.getId());// hello() Execute
 
-		 if(activeMSD.isInCut(0,0))
+		 if(activeMSD.isInCut(0,0,0))
 		{
 				ME.add(MSDm0);
 				CV.add(MSDm1);
 				return;
 		}
-		 if(activeMSD.isInCut(1,1))
+		 if(activeMSD.isInCut(1,1,0))
 		{
 				EE.add(MSDm1);
 				CV.add(MSDm0);
@@ -197,6 +217,7 @@ public aspect MSDAspectmain extends MSDAspect
 		if (result == null){
 			Env User = (Env) activeMSD.getLineInstance(Env_INST_User);
 			Person Alice = (Person) activeMSD.getLineInstance(Person_INST_Alice);
+			Person Bob = (Person) activeMSD.getLineInstance(Person_INST_Bob);
 			switch (lifelineIndex){
 			}
 		}

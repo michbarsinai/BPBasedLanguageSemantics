@@ -29,7 +29,7 @@
          </void>
         </void>
         <void property="name">
-         <string>AliceBobAndSyncs</string>
+         <string>AliceSelfMessage</string>
         </void>
         <void property="parent">
          <object idref="S2ANode1"/>
@@ -47,7 +47,7 @@
       </void>
      </void>
      <void property="name">
-      <string>AliceBobAndSyncs.lsc</string>
+      <string>AliceSelfMessage.lsc</string>
      </void>
      <void property="parent">
       <object idref="S2ANode0"/>
@@ -62,7 +62,7 @@
       </object>
      </void>
      <void property="userData">
-      <string>/home/michael/Documents/msc/BPBasedLanguageSemantics/playgo-workspace/LscComplianceSuite/AliceBobAndSyncs.lsc</string>
+      <string>/home/michael/Documents/msc/BPBasedLanguageSemantics/playgo-workspace/LscComplianceSuite/AliceSelfMessage.lsc</string>
      </void>
     </object>
    </void>
@@ -87,7 +87,7 @@
          </void>
         </void>
         <void property="name">
-         <string>AliceSelfMessage</string>
+         <string>AliceSync</string>
         </void>
         <void property="parent">
          <object idref="S2ANode3"/>
@@ -99,7 +99,7 @@
       </void>
      </void>
      <void property="name">
-      <string>AliceSelfMessage.lsc</string>
+      <string>AliceSync.lsc</string>
      </void>
      <void property="parent">
       <object idref="S2ANode0"/>
@@ -108,7 +108,154 @@
       <object idref="S2ANodeType2"/>
      </void>
      <void property="userData">
-      <string>/home/michael/Documents/msc/BPBasedLanguageSemantics/playgo-workspace/LscComplianceSuite/AliceSelfMessage.lsc</string>
+      <string>/home/michael/Documents/msc/BPBasedLanguageSemantics/playgo-workspace/LscComplianceSuite/AliceSync.lsc</string>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="il.ac.wis.cs.playgo.s2a.S2ANode" id="S2ANode5">
+     <void property="children">
+      <void method="add">
+       <object class="il.ac.wis.cs.playgo.s2a.S2ANode" id="S2ANode6">
+        <void property="children">
+         <void method="add">
+          <object class="il.ac.wis.cs.playgo.s2a.S2ANode">
+           <void property="name">
+            <string>main</string>
+           </void>
+           <void property="parent">
+            <object idref="S2ANode6"/>
+           </void>
+           <void property="type">
+            <object idref="S2ANodeType0"/>
+           </void>
+          </object>
+         </void>
+        </void>
+        <void property="name">
+         <string>AliceBobSync</string>
+        </void>
+        <void property="parent">
+         <object idref="S2ANode5"/>
+        </void>
+        <void property="type">
+         <object idref="S2ANodeType1"/>
+        </void>
+       </object>
+      </void>
+     </void>
+     <void property="name">
+      <string>AliceBobSync.lsc</string>
+     </void>
+     <void property="parent">
+      <object idref="S2ANode0"/>
+     </void>
+     <void property="type">
+      <object idref="S2ANodeType2"/>
+     </void>
+     <void property="userData">
+      <string>/home/michael/Documents/msc/BPBasedLanguageSemantics/playgo-workspace/LscComplianceSuite/AliceBobSync.lsc</string>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="il.ac.wis.cs.playgo.s2a.S2ANode" id="S2ANode7">
+     <void property="children">
+      <void method="add">
+       <object class="il.ac.wis.cs.playgo.s2a.S2ANode" id="S2ANode8">
+        <void property="children">
+         <void method="add">
+          <object class="il.ac.wis.cs.playgo.s2a.S2ANode">
+           <void property="name">
+            <string>main</string>
+           </void>
+           <void property="parent">
+            <object idref="S2ANode8"/>
+           </void>
+           <void property="traceChecked">
+            <boolean>false</boolean>
+           </void>
+           <void property="type">
+            <object idref="S2ANodeType0"/>
+           </void>
+          </object>
+         </void>
+        </void>
+        <void property="name">
+         <string>AliceBobMessages</string>
+        </void>
+        <void property="parent">
+         <object idref="S2ANode7"/>
+        </void>
+        <void property="traceChecked">
+         <boolean>false</boolean>
+        </void>
+        <void property="type">
+         <object idref="S2ANodeType1"/>
+        </void>
+       </object>
+      </void>
+     </void>
+     <void property="name">
+      <string>AliceBobMessages.lsc</string>
+     </void>
+     <void property="parent">
+      <object idref="S2ANode0"/>
+     </void>
+     <void property="traceChecked">
+      <boolean>false</boolean>
+     </void>
+     <void property="type">
+      <object idref="S2ANodeType2"/>
+     </void>
+     <void property="userData">
+      <string>/home/michael/Documents/msc/BPBasedLanguageSemantics/playgo-workspace/LscComplianceSuite/AliceBobMessages.lsc</string>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="il.ac.wis.cs.playgo.s2a.S2ANode" id="S2ANode9">
+     <void property="children">
+      <void method="add">
+       <object class="il.ac.wis.cs.playgo.s2a.S2ANode" id="S2ANode10">
+        <void property="children">
+         <void method="add">
+          <object class="il.ac.wis.cs.playgo.s2a.S2ANode">
+           <void property="name">
+            <string>main</string>
+           </void>
+           <void property="parent">
+            <object idref="S2ANode10"/>
+           </void>
+           <void property="type">
+            <object idref="S2ANodeType0"/>
+           </void>
+          </object>
+         </void>
+        </void>
+        <void property="name">
+         <string>AliceBobAndSyncs</string>
+        </void>
+        <void property="parent">
+         <object idref="S2ANode9"/>
+        </void>
+        <void property="type">
+         <object idref="S2ANodeType1"/>
+        </void>
+       </object>
+      </void>
+     </void>
+     <void property="name">
+      <string>AliceBobMessageAndSyncs.lsc</string>
+     </void>
+     <void property="parent">
+      <object idref="S2ANode0"/>
+     </void>
+     <void property="type">
+      <object idref="S2ANodeType2"/>
+     </void>
+     <void property="userData">
+      <string>/home/michael/Documents/msc/BPBasedLanguageSemantics/playgo-workspace/LscComplianceSuite/AliceBobMessageAndSyncs.lsc</string>
      </void>
     </object>
    </void>
