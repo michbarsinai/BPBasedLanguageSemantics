@@ -1,9 +1,0 @@
-package org.b_prog.lscobpjv2.lsclang.syntax;
-
-/**
- * Base class for anything that a {@link Lifeline} can meet on an {@link LSC}.
- * @author michael
- */
-public abstract class LscConstruct {
-    
-}

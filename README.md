@@ -1,8 +1,8 @@
 #Describing Semantics of Programming Languages Using Behavioral Programming
 
-This is a container site for holding the code parts of the research part of my work towards a Master degree in Computer Science during its evaluation.
+This is a temporary repository for holding some of the code of the research part of my work towards a Master degree in Computer Science.
 
-Quick links:
+Links to language implementations:
 * [Live Sequence Charts (LSCs)](https://github.com/michbarsinai/BPBasedLanguageSemantics/tree/master/code/LSCoBPJv2/src/org/b_prog/lscobpjv2)
 * [Activity Diagrams](https://github.com/michbarsinai/BPBasedLanguageSemantics/tree/master/code/BActivity/src/bp/bflow)
 * [Calc](https://github.com/michbarsinai/BPBasedLanguageSemantics/tree/master/code/calc/trunk/src/calc/binterpreter)
